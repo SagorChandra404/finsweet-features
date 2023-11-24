@@ -29,3 +29,97 @@ h1,h2,h3,h4,h5,h6,div,p,li{
     --Poppins:'Poppins', sans-serif;
     --manrope:'Manrope', sans-serif;
 }
+
+
+
+/* ================banner-part-start=================== */
+#banner-part{
+    background: #1C1E53;
+    padding: 30px 0;
+}
+
+#banner-part .custom_navbar ul {
+    align-items: center;  
+}
+
+#banner-part .custom_navbar ul li a{
+    color: #BBBBCB;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 27px;
+}
+
+#banner-part .custom_navbar ul li a:hover{
+    color:  #FFF;
+}
+
+#banner-part .custom_navbar .contact-btn{
+    margin-left: 28px;
+}
+
+#banner-part .custom_navbar .contact-btn a button{
+    background: transparent;
+    border: none;
+    color:  #FFF;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 48px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);        
+} 
+
+#banner-part .custom_navbar .contact-btn a button:hover{
+    background-color: #FFF;
+    color: #1C1E53;
+}
+
+#banner-part .mar-pad{
+    padding: 128px 0;
+}
+
+#banner-part .mar-pad .banner-left{
+    padding-top: 39px;
+} 
+
+#banner-part .mar-pad .banner-left h2{
+    color: #FFF;
+    font-family: var(--Poppins);
+    font-size: 54px;
+    font-weight: 600;
+}
+
+#banner-part .mar-pad .banner-left p{
+    color:  #FFF;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 32px 0;
+}
+
+
+
+#banner-part .mar-pad .banner-left .View-Pricing-btn a{
+    border-radius: 41px;
+    background: #FCD980;
+    padding: 16px 48px;
+    color:  #282938;
+    font-family: var(--manrope);
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+#banner-part .mar-pad .banner-left .View-Pricing-btn a:hover{
+    background: #FFF;
+    color: #1C1E53;
+}
+
+
+
+
+
+
+
+/* ================banner-part-end=================== */
